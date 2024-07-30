@@ -5,10 +5,10 @@ const app = express();
 
 //Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'c237_ca2_b&h'
+    host: 'db4free.net',
+    user: 'c237_ca2_bnh',
+    password: '12345678',
+    database: 'c237_ca2_bnh'
 });
 
 connection.connect((err) => {
